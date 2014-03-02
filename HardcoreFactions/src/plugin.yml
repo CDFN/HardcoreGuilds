@@ -1,0 +1,25 @@
+name: CzokoGuilds
+main: northpl.main.Main
+version: 1.7.4
+author: NorthPL
+
+commands:
+ stworz:
+    description: Tworzy gildie
+ usun:
+    description: Usuwa gildie, przedmioty nie zostana zwrocone!
+ gildia:
+    description: Informacje o gildii
+ zaproszenia:
+    description: Zarzadzaj zaproszeniami do gildii
+ dolacz:
+    description: Dolacza do gildii - wymagane zaproszenie
+ odejdz:
+    description: Odchodzisz od gildii
+    aliases: opusc
+ przebuduj:
+    default: op
+    description: Przebudowa lokalnego cache
+ debuginfo:
+    default: op
+    description: Informacje o lokalnym cache
